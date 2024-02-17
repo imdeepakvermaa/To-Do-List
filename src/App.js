@@ -1,13 +1,13 @@
-import React from 'react'
-import Header from './Components/Header'
-import Hero from './Components/Hero'
+
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import bgImage from './Images/bg-image.jpg';
 
 const App = () => {
   return (
-    <div>
+    <div className=' ' style={{backgroundImage: `url(${bgImage})`}}>
       <Header/>
       <Hero/>
-
     </div>
     
   )
